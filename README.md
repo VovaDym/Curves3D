@@ -13,4 +13,4 @@
   	        cd build
   	        cmake ..
   	        make
-           ./Cerves3D
+           ./Curves3D
