@@ -25,10 +25,11 @@ Ellipse is planar in the plane XoY and is defined by its two radii, along X and 
 Helix is spatial and is defined by its radius and step (see the figure below). It takes 2 * PI in parametric space to make a round, i.e. any point on helix satisfies the condition C(t + 2*PI) = C(t) + {0, 0, step}.
 
 
-Supported compiler: gcc, clang
-Supported OS: Linux x64
-Depends on: C++ compiler, CMake
-Build & Run
+#Supported compiler: gcc, clang
+#Supported OS: Linux x64
+#Depends on: C++ compiler, CMake
+#Build & Run
+
 mkdir cmake-build-gcc && cd cmake-build-gcc \
  && /sbin/cmake -DCMAKE_CXX_COMPILER=/sbin/g++ -G "CodeBlocks - Unix Makefiles" .. \
  && /sbin/cmake --build . --target mcl_test \
